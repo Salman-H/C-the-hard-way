@@ -1,0 +1,26 @@
+What you can see is we have a set of "types", which are ways of telling the 
+C compiler what each variable should represent, and then format strings to 
+match different types. Here's the breakdown of how they match up:
+
+Integers
+    You declare Integers with the int keyword, and print them with %d.
+    
+Floating Point
+    Declared with float or double depending on how big they need to be 
+    (double is bigger), and printed with %f.
+    
+Character
+    Declared with char, written with a ' (single-quote) character around the 
+    char, and then printed with %c.
+    
+String (Array of Characters)
+    Declared with char name[], written with " characters, and printed with %s. 
+    
+    
+HOW TO BREAK IT: SEGMENTATION FAULT
+-----------------------------------
+You can easily break this program by passing the wrong thing to the printf 
+statements. For example, if you take the line that prints my name, but put the 
+initial variable before the first_name in the arguments, you'll get a bug. 
+Make that change and the compiler will yell at you, then when you run it you 
+might get a "Segmentation fault" like I did

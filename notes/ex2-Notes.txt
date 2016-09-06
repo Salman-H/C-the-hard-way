@@ -1,0 +1,14 @@
+Keep the Makefile around since it'll help you spot errors and we'll be adding 
+to it when we need to automate more things.
+
+For Makefiles, use the following command to verify indents:
+
+cat -e -t -v  Makefile
+
+where 'Makefile' is the name of the Makefile (in this case they're same!)
+
+To clean, commpile and run your program
+
+$ make clean
+$ make ex1
+$ ./ex1

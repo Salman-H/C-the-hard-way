@@ -1,0 +1,4 @@
+a keyword called sizeof to ask C how big things are in bytes. 
+C is all about the size and location of pieces of memory and what you do 
+with them. To help you keep that straight, it gives you sizeof so you can 
+ask how big something is before you work with it.

@@ -1,0 +1,10 @@
+This bit of source is entirely just an exercise, and demonstrates how 
+some math works. At the end, it also demonstrates something you see in C, 
+but not in many other languages. To C, a "character" is just an integer. 
+It's a really small integer, but that's all it is. This means you can do math 
+on them, and a lot of software does just that, for good or bad.
+
+*********************                           ****************************
+This last bit is your first glance at how C gives you DIRECT ACCESS TO THE
+MACHINE. We'll be exploring that more in later exercises.
+****************************************************************************
